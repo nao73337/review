@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  zoom_url: MyText
+  range: MyString
+  deadline: MyString
+  room: MyString
+
+two:
+  zoom_url: MyText
+  range: MyString
+  deadline: MyString
+  room: MyString

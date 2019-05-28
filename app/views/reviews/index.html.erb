@@ -1,0 +1,7 @@
+<h1>ZOOM</h1>
+<ul>
+  <% @reviews.each do |review| %>
+    <li><%= link_to review.room, review %></li>
+  <% end %>
+</ul>
+<%= link_to "登録する", new_review_path %>

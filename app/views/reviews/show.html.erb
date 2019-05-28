@@ -1,0 +1,20 @@
+<p>
+  <b>Zoom url：<a href= <%= @review.zoom_url %>><%= @review.zoom_url %></a></b>
+</p>
+
+<p>
+  <b>時間範囲：<%= @review.range %></b>
+</p>
+
+<p>
+  <b>有効期限：<%= @review.deadline %></b>
+</p>
+
+<p>
+  <b>部屋の名前：<%= @review.room %></b>
+</p>
+<p>
+  <%= link_to "一覧に戻る", reviews_path(@review) %>
+  <%= link_to "編集", edit_review_path(@review) %>
+  <%= link_to "削除", review_path(@review), method: :delete, data: {confirm: '削除してよろしいですか？'} %>
+</p>
